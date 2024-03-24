@@ -559,8 +559,6 @@ ul {
 
 .email-item {
   display: flex;
-
-
   flex-direction: row;
   gap: 24px;
 }
@@ -616,11 +614,24 @@ ul {
   right: 24px;
   top: 24px;
   border-radius: 100%;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  background-color: #e7e9fc;
+  padding: 0;
   width: 24px;
   height: 24px;
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.btn-close:hover,
+.btn-close:focus {
+  background-color: #404bbf;
+  border: none;
+}
+
+.btn-close:hover>.icon-modal {
+  fill: #FFFFFF;
 }
 
 .icon-modal {
