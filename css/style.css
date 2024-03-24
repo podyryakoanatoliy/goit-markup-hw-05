@@ -193,7 +193,7 @@ ul {
   border: none;
   min-width: 169px;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  ;
+
 }
 
 .hero-btn:hover,
@@ -487,7 +487,9 @@ ul {
   margin-right: 120px;
 }
 
-.social-media {}
+.social-media {
+  margin-right: 80px;
+}
 
 .social-media-title {
   font-weight: 500;
@@ -528,4 +530,110 @@ ul {
 .social-icon-link-footer:hover,
 .social-icon-link-footer:focus {
   background-color: #31d0aa;
+}
+
+.footer-email {
+  max-width: 453px;
+  height: 80px;
+}
+
+.emeil-text {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #fff;
+  margin-bottom: 16px;
+}
+
+.input-email {
+  width: 264px;
+  height: 40px;
+  background: #2e2f42;
+  border: 1px solid #fff;
+  border-radius: 4px;
+  width: 264px;
+  height: 40px;
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+}
+
+.email-item {
+  display: flex;
+
+
+  flex-direction: row;
+  gap: 24px;
+}
+
+.btn-footer {
+  border-radius: 4px;
+  padding: 8px 24px;
+  width: 165px;
+  height: 40px;
+  background: #4d5ae5;
+  border: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+}
+
+.text-btn {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  text-align: center;
+  color: #fff;
+}
+
+.icon-footer {
+  fill: #fff;
+}
+
+.backdrop {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  background: rgba(46, 47, 66, 0.4);
+}
+
+.modal {
+  position: absolute;
+  border-radius: 4px;
+  width: 408px;
+  min-height: 584px;
+  background-color: #fcfcfc;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 72px 24px;
+}
+
+.btn-close {
+  position: absolute;
+  right: 24px;
+  top: 24px;
+  border-radius: 100%;
+  width: 24px;
+  height: 24px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.icon-modal {
+  fill: #2e2f42;
+}
+
+.modal-title {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: #2e2f42;
+  max-width: 360px;
+  margin-bottom: 16px;
 }
