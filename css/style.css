@@ -555,6 +555,14 @@ ul {
   width: 264px;
   height: 40px;
   box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+  padding-left: 16px;
+}
+
+.input-email::placeholder {
+  line-height: 2;
+  letter-spacing: 0.04em;
+  color: #fff;
+
 }
 
 .email-item {
@@ -574,9 +582,6 @@ ul {
   align-items: center;
   justify-content: center;
   gap: 16px;
-}
-
-.text-btn {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -584,6 +589,7 @@ ul {
   text-align: center;
   color: #fff;
 }
+
 
 .icon-footer {
   fill: #fff;
